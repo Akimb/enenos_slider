@@ -14,8 +14,7 @@
         if (!checkCount(slides)) 
             return;
         
-
-        
+            
     } else {
         return; 
     }
@@ -25,6 +24,5 @@
     function checkCount(slides) {
         if (slides.children.length > 10) 
             return false;
-        
     }
 })();
